@@ -1,0 +1,79 @@
+---
+name: Gaurav
+surname: Dwivedi
+position: "Technical Lead"
+address: "Air Force Station, Viman Nagar, Pune, Maharastra"
+phone: +91 8971856124
+profilepic: gaurav.jpg
+email: "gtgindia@gmail.com"
+github: gtgindia
+linkedin: gtgindia
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "Working as a Technical Lead in TCS in Lifesciences Domain for a supply-chain project. Leading a team of data scientist involved in data ETL to forcasting demand to visualization. MBA in finance with total 3.5+ Years of experience in leading team including in finance & insurance industry."
+output: vitae::moderncv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Work Experience
+
+## __Tata Consultancy Services__                (Jul, 2021 - Till Date) _Technical Lead_ \linebreak
+
+
+  __Project__ : Leading a team of 14 developer for European Pharmaceutical & Healthcare giant Bayer AG.
+The project is focused on creating and maintaining a dashboard for the supply chain of a major drug.
+Gives users a span shot of the current inventory level through various graphs and also helps them in
+planning for future demand. We had various analytics tools built into the dashboard.  
+
+ 
+With a proven capability to work independently and in teams, mentor co-workers, and communicate with
+both technical and non-technical audiences, I consistently deliver value to clients.
+
+\hfill
+  __Project Scope__ : 
+  
+  + R language along with Shiny, dplyr, data.table , ggplot2
+  + AWS EC2, RDS, ECS, lambda
+  + Git Gitlab
+  + Python for demand/supply calculation and forecasting 
+  + Docker 
+  
+\hfill
+  __Project Details__ : Project had three milestones. First to add UI improvements in the dashboard, this included adding graphs, filters etc. Second was to add 
+
+## __ICICI Prudential Life Insurance__     (Sep, 2018 - Oct, 2019) _Manager_ \linebreak
+  
+  
+## __Janalakshmi Financial Services__              (May, 2017 - Jun, 2018) _Assistant Manager_ 
+  
+\hfill\break
+\hfill\break
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Master of Science, Big Data Analytics", "2019-21", "Central University of Rajasthan", "Ajmer, Rajasthan    78.75%",
+  "Master of Business Administration, Finance", "2014-16", "Symbiosis Institute of Management Studies, SIU", "Pune, Maharastra    70.73%",
+  "Bachelor of Engineering, Computer Science Engineering", "2010-14", "Acharya Institute of Technology, VTU", "Bangalore, Karnataka    71.19%,",
+  "HSC 12th CBSE", "2010", "Kendriya Vidyalaya", "Bidar, Karnataka    81.60%,",
+  "SSC 10th CBSE", "2008", "Kendriya Vidyalaya", "Bidar, Karnataka    91.20%,"
+  
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Certifications and Accomplishments
+
+* AWS Certified Cloud Practitioner
+* Won multiple awards in _Quiz Contests_ in school and Collage at various levels
+* Worked in _Connecting NGO_ helping in suicide prevention
+* Won On-The-Spot award in TCS
+* Got multiple appreciations from client
+
+
